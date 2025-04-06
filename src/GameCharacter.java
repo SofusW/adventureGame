@@ -4,9 +4,7 @@ public interface GameCharacter {
     int health = 0;
     int attackPower = 0;
 
-    static void attack(GameCharacter enemy) {
-
-    }
+    void attack(GameCharacter enemy);
 
 }
 

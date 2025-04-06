@@ -1,13 +1,16 @@
 import java.util.ArrayList;
+import java.util.List;
 
 public class PlayerCharacter implements GameCharacter{
 
     String name = "CharacterName";
     int health = 100;
     int attackPower = 15;
-    ArrayList<Relic> inventory = new ArrayList<Relic>();
+    List<Relic> inventory = new ArrayList<Relic>();
 
-    public static void attack(GameCharacter enemy) {
+
+
+    public void attack(GameCharacter enemy) {
 
     }
 
